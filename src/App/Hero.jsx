@@ -54,7 +54,7 @@ const Hero = () => {
               initial="hidden"
               animate="show"
               transition={{ duration: 0.5 }}
-              href="public/cv.pdf"
+              href="./public/cv.pdf"
               className="w-max h-max px-7 rounded-lg flex flex-row bg-white text-pink-600 md:text-[1.4rem] phone:text-[1rem] hover:-translate-y-2 transition-all ease-in-out duration-300"
               download={"cv"}
             >
@@ -70,7 +70,7 @@ const Hero = () => {
             }
           >
             <img
-              src="public/Images/profile.jpg"
+              src="./public/Images/profile.jpg"
               className="2xl:h-[30rem] xl:h-[25rem] lg:h-[19rem]  2xl:w-[30rem] xl:w-[25rem] lg:w-[19rem] md:rounded-full  flex flex-col items-center justify-center md:rounded-br-none object-cover phone:w-[16rem] phone:h-[16rem] mx-auto my-5 border-basicText md:border-[0.8rem] phone:border-[0.4rem]  phone:rounded-b-full"
             />
           </ReUse>

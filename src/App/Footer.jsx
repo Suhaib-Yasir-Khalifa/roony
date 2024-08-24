@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <div className="w-full lg:h-[60rem] phone:h-[35rem] relative overflow-hidden before:absolute before:w-full before:h-full before:bg-black before:opacity-75 z-[10]">
         <img
-          src="public/Images/footer.jpg"
+          src="./public/Images/footer.jpg"
           className="w-full h-full z-[-1] object-cover  absolute"
         />
         <h1 className="text-white font-extrabold font italic text-center mt-[20%] z-[10] relative phone:text-[2rem]  lg:text-[5rem] phone:px-[2rem] md:px-[4rem]">
