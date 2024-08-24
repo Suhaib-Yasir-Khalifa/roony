@@ -2,7 +2,7 @@ import ReUse from "./Animation/ReUse";
 
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import filePath from "public/cv.pdf";
+
 const Hero = () => {
   return (
     <>
@@ -54,7 +54,7 @@ const Hero = () => {
               initial="hidden"
               animate="show"
               transition={{ duration: 0.5 }}
-              href={filePath}
+              href="public/cv.pdf"
               className="w-max h-max px-7 rounded-lg flex flex-row bg-white text-pink-600 md:text-[1.4rem] phone:text-[1rem] hover:-translate-y-2 transition-all ease-in-out duration-300"
               download={"cv"}
             >
