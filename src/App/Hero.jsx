@@ -1,5 +1,5 @@
 import ReUse from "./Animation/ReUse";
-import imgPro from "./public/Images/profile.jpg";
+
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import filePath from "./public/cv.pdf";
@@ -70,7 +70,7 @@ const Hero = () => {
             }
           >
             <img
-              src={imgPro}
+              src="public/Images/profile.jpg"
               className="2xl:h-[30rem] xl:h-[25rem] lg:h-[19rem]  2xl:w-[30rem] xl:w-[25rem] lg:w-[19rem] md:rounded-full  flex flex-col items-center justify-center md:rounded-br-none object-cover phone:w-[16rem] phone:h-[16rem] mx-auto my-5 border-basicText md:border-[0.8rem] phone:border-[0.4rem]  phone:rounded-b-full"
             />
           </ReUse>

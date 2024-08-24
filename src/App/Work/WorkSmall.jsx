@@ -24,7 +24,7 @@ const WorkSmall = ({ mainTitle, coverImg, projectTalk, clickFunction }) => {
         className="flex relative overflow-hidden flex-col  before:w-full before:bg-slate-900 before:opacity-70 before:h-[40%] group lg:w-[30%] md:w-[80%] phone:w-[90%] h-[20rem] rounded-3xl before:hover:opacity-90 before:transition-all before:duration-300 before:ease-in-out before:bottom-0 before:absolute before:z-[2] phone:mx-auto lg:mx-0"
       >
         <img
-          src={`./public/Images/${coverImg}`}
+          src={`public/Images/${coverImg}`}
           className=" group-hover:scale-[1.5] w-full h-full  object-cover   transition-all ease-in-out duration-300 z-[1]"
         />
         <div className="absolute z-[3] bottom-0 w-full h-[40%] px-3 py-2">

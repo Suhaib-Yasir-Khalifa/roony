@@ -18,7 +18,7 @@ const NavBar = () => {
             animate="showed"
             transition={{ duration: 0.6, delay: 0.2 }}
             className="w-max h-[70px]  border-basicText  "
-            src="./public/Images/logo.png"
+            src="public/Images/logo.png"
           />
         </div>
         <div className="phone:hidden md:flex justify-between px-2 gap-x-7 xl:gap-x-8 md:text-[16px] xl:text-[20px] my-auto  ">
