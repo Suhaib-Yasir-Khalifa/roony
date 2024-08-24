@@ -2,7 +2,7 @@ import ReUse from "./Animation/ReUse";
 
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import filePath from "./public/cv.pdf";
+import filePath from "public/cv.pdf";
 const Hero = () => {
   return (
     <>
