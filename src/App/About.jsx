@@ -27,7 +27,7 @@ const About = () => {
         <div className="my-8 flex flex-row phone:w-full justify-between md:w-[80%] lg:w-[70%] xl:w-[65%] 2xl:w-[50%] mx-auto">
           <div className="flex flex-col justify-center items-center">
             <img
-              src="./public/Images/eventx.jpg"
+              src="./Images/eventx.jpg"
               className="md:w-[10rem] md:h-[10rem] phone:w-[5rem] phone:h-[5rem] rounded-full my-2"
             />
             <ReUse>
@@ -54,7 +54,7 @@ const About = () => {
           </div>
           <div className="flex flex-col justify-center items-center">
             <img
-              src="public/Images/edition.jpg"
+              src="./Images/edition.jpg"
               className="md:w-[10rem] md:h-[10rem] phone:w-[5rem] phone:h-[5rem] rounded-full my-2"
             />
             <ReUse>

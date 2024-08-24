@@ -159,7 +159,7 @@ const Work = () => {
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center ">
                         <img
-                          src={`./public/Images/${item}.jpg`}
+                          src={`./Images/${item}.jpg`}
                           className="w-full mx-auto h-full object-cover "
                         />
                       </CardContent>

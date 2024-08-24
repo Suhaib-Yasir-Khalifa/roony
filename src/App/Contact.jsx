@@ -20,7 +20,7 @@ const Contact = () => {
                   "https://www.instagram.com/x.mvrwan?igsh=MXg3M2kxc2c0cTc3Mw=="
                 )
               }
-              src="./public/Images/instagram.jpg"
+              src="./Images/instagram.jpg"
               className="md:w-[10rem] phone:w-[4rem] cursor-pointer phone:h-[4rem] md:h-[10rem] rounded-full object-cover "
             />
             <img
@@ -29,7 +29,7 @@ const Contact = () => {
                   "https://www.facebook.com/roony.twix.1?mibextid=ZbWKwL"
                 )
               }
-              src="./public/Images/facebook.png"
+              src="./Images/facebook.png"
               className="md:w-[10rem] phone:w-[4rem] cursor-pointer phone:h-[4rem] md:h-[10rem] rounded-full object-cover "
             />
             <img
@@ -38,12 +38,12 @@ const Contact = () => {
                   "https://www.linkedin.com/in/marwanmohali?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 )
               }
-              src="./public/Images/linkedin.jpg"
+              src="./Images/linkedin.jpg"
               className="md:w-[10rem] phone:w-[4rem] cursor-pointer phone:h-[4rem] md:h-[10rem] rounded-full object-cover "
             />
             <img
               onClick={() => redirect("https://wa.me/c/249116925801")}
-              src="./public/Images/whatsapp.jpg"
+              src="./Images/whatsapp.jpg"
               className="md:w-[10rem] phone:w-[4rem] cursor-pointer phone:h-[4rem] md:h-[10rem] rounded-full object-cover "
             />
           </div>
